@@ -1,4 +1,3 @@
-
 COPY (
 SELECT 
   upper(substring(mac_address, 1,2) || '-' || 
