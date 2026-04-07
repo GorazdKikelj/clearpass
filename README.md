@@ -18,7 +18,7 @@ Set password for appexternal amd connect to tipsdb database.
 Modify SQL statement to reflect your device mappings to roles.
 
 ### XML Conversion conv_endpoint_to_guest.py
-'''
+```
 $ python3 conv_endpoint_to_guest.py -h
 usage: conv_endpoint_to_guest.py [-h] [--format {xml,json,csv}] [--category CATEGORY] [--xml-format {pretty,raw}] input output role
 
@@ -84,7 +84,7 @@ Role mapping:
   Server -> 6
   Printer -> 8
   (other roles are used as provided)
-'''
+```
 
 ### REST API cp_get_endpoint.py
 #### Requirements
@@ -97,7 +97,7 @@ urllib3
 - Install requirements if needed
 - Customize config.ini file to reflect your environment and requirements
 - Run script
-'''
+```
 cp_get_endpoint.py -h
 usage: cp_get_endpoint.py [-h] [--cp-host CP_HOST] [--cp-port CP_PORT] [--cp-user CP_USER] [--cp-pass CP_PASS] [--filter FILTER] [--output OUTPUT]
                           [client_id] [client_secret] [grant_type] [limit]
@@ -118,6 +118,6 @@ API Client Credentials:
   client_secret      ClearPass API Client Secret
   grant_type         ClearPass API Grant Type (default: client_credentials)
   limit              ClearPass API Limit (default: 1000)
-'''
+```
 
 
