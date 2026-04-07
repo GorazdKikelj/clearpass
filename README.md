@@ -13,9 +13,9 @@ Describe three methods to convert Endpoint data to import format.
 - Update Role Mappings and Enforcement Policies
 
 ### SQL method endpoint2guest.sql
-Using psql client to access endopoint db on Clearpass.
-Set password for appexternal amd connect to tipsdb database.
-Modify SQL statement to reflect your device mappings to roles.
+- Using psql client to access endopoint db on Clearpass.
+- Set password for appexternal amd connect to tipsdb database.
+- Modify SQL statement to reflect your device mappings to roles.
 
 ### XML Conversion conv_endpoint_to_guest.py
 ```
@@ -88,9 +88,9 @@ Role mapping:
 
 ### REST API cp_get_endpoint.py
 #### Requirements
-pycentral
-requests
-urllib3
+- pycentral
+- requests
+- urllib3
 
 ####  Convert data
 - Create REST API client in ClearPass
