@@ -1,0 +1,11 @@
+{
+    "role_id_map": {
+        "[Contractor]": "1",
+        "[Guest]": "2",
+        "[Employee]": "3",
+        "Access Point": "4",
+        "Security Device": "5",
+        "Server": "6",
+        "Printer": "8"
+    }
+}
